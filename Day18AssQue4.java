@@ -1,0 +1,1 @@
+package PWskill;import java.util.Arrays;public class Day18AssQue4 {    public static void main(String[] args) {        //WAP to sort a string alphabetically        String s = "xzyacbnm";        char []arr = s.toCharArray();        Arrays.sort(arr);        for(int i =0;i<arr.length;i++){            System.out.print(arr[i]);        }    }}
